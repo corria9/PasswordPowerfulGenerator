@@ -1,0 +1,329 @@
+/*Prueba de enlaces de stylo
+*/
+
+/*body {
+
+	background-color: black;
+
+}
+
+*/
+
+html {
+
+	background: #E3F2FD;
+}
+
+
+.container {
+
+	border-radius: 10px;
+	width: 400px;
+	height: 600px;
+	position: relative;
+	left: 450px;
+	top: 50px;
+
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .container {
+
+	width: 250px;
+	left: 50px;
+}
+
+
+#infotext {
+
+	font-size: 15px;
+	font-family: courier;
+	font-weight: 500;
+	color: #1565C0;
+	top: 50px;
+
+
+}
+
+#password {
+
+	width: 100%;
+	text-align: center;
+	position: relative;
+	left: 25px;
+	font-size: 25px;
+	font-family: courier;
+	font-weight: 400;
+	color: #1565C0;
+	padding-top: 5%;
+	overflow: break;
+
+
+
+}
+
+
+}
+
+
+
+
+
+
+
+p {
+
+
+	width: 200px;
+	position: relative;
+	left: 135px;
+	top:5px;
+	font-size: 20px;
+	font-family: courier;
+	color: #0D47A1;
+	font-weight: 800;
+
+
+
+}
+
+.checkbox {
+
+
+	width: 120px;
+	height: 40px;
+	background: #1565C0;
+	margin:2% 5%; 
+	border-radius: 30px;
+	position: relative;
+    font-family: courier;
+
+
+}
+
+
+
+
+
+
+.checkbox:before {
+
+
+
+	content: 'On';
+	position: absolute;
+	top: 8px;
+	left:13px;
+	height: 2px;
+	color: #FFEB3B;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: courier;
+
+
+
+
+
+}
+
+.checkbox:after {
+
+
+	content: 'Off';
+	position: absolute;
+	top: 7px;
+	left:75px;
+	height: 2px;
+	color: #E1F5FE;
+	font-size: 20px;
+	font-family: courier;
+	
+
+
+
+}
+
+
+.checkbox label {
+
+
+	display: block;
+	width: 52px;
+	height: 22px;
+	border-radius: 50px;
+
+
+	transition: all .5s ease;
+	cursor: pointer;
+	position: absolute;
+	top:9px;
+	z-index: 1;
+	left: 12px;
+	background: #E1F5FE; 
+
+
+}
+
+
+.checkbox input[type=checkbox]:checked + label {
+
+
+	left:60px;
+
+	background: #FFEB3B;
+	font-family: courier;
+
+
+
+
+}
+
+
+
+
+.check {
+
+	display: none;
+
+
+}
+
+
+
+#length {
+
+	position: relative;
+	left: 30%;
+	width: 40%;
+	height: 10%;
+	font-size: 20px;
+	border-radius: 50%;
+	font-family: courier;
+	color: #1565C0;
+	box-sizing: border-box;
+	font-weight: 800;
+	border-radius: 10px;
+	text-align: center;
+
+
+
+
+}
+
+
+#generate {
+
+	outline:none;
+	position: absolute;
+	z-index: 1;
+	width: 40%;
+	height: 12%;
+	left:30%;
+	background:#1565C0;
+	font-size: 20px;
+	font-family: courier;
+	font-weight: 700:
+
+
+
+}
+
+
+#generate:active {
+
+	border: 100% solid #FFEB3B;
+	color: white;
+
+
+	outline:none;
+	position: absolute;
+	z-index: 1;
+	width: 43%;
+	height: 13%;
+	left:30%;
+	background:#1565C0;
+	font-size: 24px;
+	font-family: courier;
+	font-weight: 700:
+
+
+}
+
+
+#infotext {
+
+	text-align: center;
+	position: relative;
+	font-size: 25px;
+	font-family: courier;
+	font-weight: 700;
+	color: #1565C0;
+	padding-top: 20%;
+
+
+
+}
+
+
+
+#password {
+
+	width: 100%;
+	text-align: center;
+	position: relative;
+	left: 25px;
+	font-size: 25px;
+	font-family: courier;
+	font-weight: 400;
+	color: #1565C0;
+	padding-top: 65px 0px 0px;
+	overflow: break;
+
+
+
+}
+
+
+#password:hover {
+
+	width: 100%;
+	text-align: center;
+	position: relative;
+	left: 30px;
+
+	font-size: 30px;
+	font-family: courier;
+	font-weight: 400;
+	color: #1565C0;
+	padding-top: 65px 0px 0px;
+
+	overflow: break;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

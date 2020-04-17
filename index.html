@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="icon" href="favicon.ico">
+	<title>Strong and Powerful Customizable Password Generator</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+</head>
+
+
+
+<body>
+
+
+	<span>
+
+
+		<div class="container">
+
+
+
+			<div class="checkbox">
+
+				<input class="check" type="checkbox" value="1" id="checkbox1" name="">
+				<label for="checkbox1"></label>
+
+				<p>Mayusculas</p>
+
+			</div>
+
+
+
+
+			<div class="checkbox">
+
+				<input class="check" type="checkbox" value="1" id="checkbox2" name="">
+				<label for="checkbox2"></label>
+
+				<p>Minusculas</p>
+
+			</div>
+
+
+
+
+			<div class="checkbox">
+
+				<input class="check" type="checkbox" value="1" id="checkbox3" name="">
+				<label for="checkbox3"></label>
+
+				<p>Numeros</p>
+
+			</div>
+
+
+
+			<div class="checkbox">
+
+				<input class="check" type="checkbox" value="1" id="checkbox4" name="">
+				<label for="checkbox4"></label>
+
+				<p>Simbolos</p>
+
+			</div>
+
+
+			<br/>
+
+			<input type="number" id="length" placeholder="longitud"> 
+
+
+			<br/>
+
+
+			<br/>
+
+			<input type="button" id="generate" value="generate" onclick="getvalues()">
+
+
+			<div id="infotext">
+				
+				Aqui tu contraseña:
+
+			</div>
+
+		
+
+
+
+		</div>
+		
+
+
+	</span>
+
+	<div id="password"></div>
+
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
